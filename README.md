@@ -14,23 +14,23 @@ All the code needed to init the runtime, load a Assembly, execute a C# function,
 > Execute
 ![C#Code](/READMEAssets/ExampleImages_1/ProgramOutput.png?raw=true "tional Title")
 
+> [!NOTE]
+> Floofy Sharp depends on [.NET 8+ Runtime](https://dotnet.microsoft.com/en-us/download/dotnet). It is capable of running earlier revitions, but this is the one I reccomand.
+
 # Out In The Wild
 
-#
+- Floofy Sharp is used in the [Smok]() and [Hologram]() game engines. And is provided bundled with the [Bytes The Dust SDK]().
 
-# Building from Source
+# Using In Your Project
 
-> [!NOTE]
-> The following required dependencies must be met in order to compile from source. Dotnet runtime is required to run the mod framework on every location.
+Floofy Sharp is implemented purly in header files. It does require a link against `nethost.lib` and the project using it to find or carry the `nethost.dll` for it to work.
 
-## Dependencies
+# To C or Cpp, That Is The Question
 
-- ### [.NET 8+ Runtime](https://dotnet.microsoft.com/en-us/download/dotnet)
+FS has a almost identical API for C and C++. The main differance is in C++, it offers the ability to use templates when casting the returned Managed Function.
 
-## How to Build
+They can be found under `includes/FloofySharp/c` and `includes/FloofySharp/cpp` respectivly
 
-1. Install the [.NET 8+ SDK](https://dotnet.microsoft.com/en-us/download/dotnet)
-
-2. Install [CMake 3.22+](https://cmake.org/download/)
- 
-3. Install [Visual Studio 2022+](https://visualstudio.microsoft.com/downloads/) with the <b>Desktop development with C++</b> package
+# Resources
+> [!TIP]
+> You can view examples under [FS C UwU](), [FS Cpp UwU], and [FS Executes A C# EXE]()
