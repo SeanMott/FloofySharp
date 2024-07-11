@@ -2,9 +2,9 @@
 
 //defines a assembly we import
 
-#include <FloofySharp/BTDSTD/Types/String.hpp>
+#include <BTDSTD/Types/Chars.h>
 
-#include <string>
+#include <cstdio>
 
 namespace CSRuntime::Assembly
 {
@@ -17,8 +17,8 @@ namespace CSRuntime::Assembly
 	{
 		Assembly::GetManagedFunctionPointer getManagedFunctionPtr = nullptr; //callback for getting function pointers
 
-		std::wstring workingDir = L""; //the working directory for the DLL
-		std::wstring assemblyName = L""; //the name of the assembly
+		const char_t* workingDir = NULL; //the working directory for the DLL
+		const char_t* assemblyName = NULL; //the name of the assembly
 
 		//sets the assembly name
 
