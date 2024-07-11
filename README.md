@@ -29,8 +29,10 @@ Floofy Sharp is implemented purly in header files. It does require a link agains
 
 FS has a almost identical API for C and C++. The main differance is in C++, it offers the ability to use templates when casting the returned Managed Function.
 
-They can be found under `includes/FloofySharp/c` and `includes/FloofySharp/cpp` respectivly
+They can be found under `includes/FloofySharp/C` and `includes/FloofySharp/Cpp` respectivly.
+
+It's reccomanded just make FloofySharp your included folder. As it depends on a few other headers inside.
 
 # Resources
 > [!TIP]
-> You can view examples under [FS C UwU](), [FS Cpp UwU], and [FS Executes A C# EXE]()
+> You can view examples under [FS C UwU](), [FS Cpp UwU](), and [FS Executes A C# EXE]()
