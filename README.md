@@ -1,2 +1,6 @@
 # FloofySharp
-Floofy Sharp is a lightweight, straight forward C header only library for using C# in C++ via the CLR.
+
+Floofy Sharp a soft and comfty, straight forward C header only library for using C# in C/C++ via the CLR.
+
+>[!HELP]
+>
