@@ -4,3 +4,7 @@ Floofy Sharp a soft and comfty, straight forward C header only library for using
 
 >[!HELP]
 >
+
+>[!NOTE]
+
+>[!TIP]
